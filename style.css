@@ -330,8 +330,13 @@ textarea:focus {
 .row {
     /*max-width: 1230px;*/
     max-width: 100%;
+    max-width: 1920px;
     margin: 0 auto;
     padding: 0 25px;
+}
+
+.row_2 {
+    max-width: 1710px;
 }
 
 .overflow_wrapp {
@@ -912,6 +917,299 @@ textarea:focus {
 
 /*-- /Section 1 - Edit Server Page --*/
 
+/*-- /Section 1 - Edit Server Page --*/
+
+.title_two_cols {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    padding: 22px 0;
+}
+
+.title_two_cols > .col_1 {
+    width: 65%;
+    padding-right: 10px;
+}
+
+.title_two_cols > .col_2 {
+    width: 35%;
+    padding-left: 10px;
+}
+
+.right_inlines {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: flex-end;
+    -webkit-justify-content: flex-end;
+    margin: 0 -10px;
+}
+
+.right_inlines > div {
+    padding: 0 10px;
+}
+
+.white_pill {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    margin: 8px 0;
+    padding: 7px 17px 7px 17px;
+    background-color: #fff;
+    border: 1px solid #e31212;
+    font-size: 15px;
+    color: #e51212;
+    line-height: 1.2;
+}
+
+.plus_pill {
+    padding-right: 50px;
+}
+
+.plus_pill:after {
+    display: block;
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url(img/plus.svg);
+    position: absolute;
+    top: 8px;
+    right: 14px;
+}
+
+.table_wrapp {
+    padding-bottom: 150px;
+}
+
+.table_1 {
+    margin: 3px 0;
+}
+
+.table_1 .table_row {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    border-bottom: 1px solid #f3f6f8;
+    padding: 8px 25px 8px 45px;
+    min-height: 49px;
+}
+
+.table_1 .table_row .cell {
+    padding: 0 10px;
+}
+
+.table_1 .table_row .cell:nth-child(1) {
+    width: 38%;
+}
+
+.table_1 .table_row .cell:nth-child(2) {
+    width: 21%;
+}
+
+.table_1 .table_row .cell:nth-child(3) {
+    width: 21%;
+}
+
+.table_1 .table_row .cell:nth-child(4) {
+    width: 20%;
+}
+
+.table_1 .table_row:nth-child(1) {
+    min-height: 47px;
+    padding: 8px 25px 8px 45px;
+    background-color: #eef7ff;
+}
+
+.table_1 h3 {
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 600;
+    color: #000;
+}
+
+.table_1 p {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: normal;
+    color: #000;
+}
+
+.blue_link {
+    border-bottom: 1px solid #017efe;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 600;
+    color: #017efe;
+    -webkit-transition-property: border;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: border;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: border;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: border;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: border;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.blue_link:hover {
+    border-bottom: 1px solid transparent
+}
+
+.pills_wrapp {
+    display: flex;
+    display: -webkit-flex;
+    margin: 0 -7px;
+}
+
+.pills_wrapp > div {
+    padding: 0 7px;
+}
+
+.red_pill_2 {
+    display: inline-block;
+    vertical-align: top;
+    min-width: 84px;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: normal;
+    color: #fff;
+    text-align: center;
+    padding: 7px 16px 6px 16px;
+    border: 1px solid #e51212;
+    background-color: #e51212;
+    -webkit-transition-property: background, color, box-shadow;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: background, color, box-shadow;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: background, color, box-shadow;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: background, color, box-shadow;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: background, color, box-shadow;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.red_pill_2:hover {
+    background-color: transparent;
+    color: #e51212;
+}
+
+.red_pill__3 {
+    padding-right: 40px;
+    position: relative;
+}
+
+.red_pill__3:before {
+    display: block;
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-repeat: no-repeat;
+    background-image: url(img/cancel.svg);
+    background-size: contain;
+    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    z-index: 2;
+}
+
+.red_pill__3:hover {
+    color: #fff;
+    background-color: #e51212;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(229,18,18,.3);
+    -moz-box-shadow: 0 2px 5px 0 rgba(229,18,18,.3);
+    box-shadow: 0 2px 5px 0 rgba(229,18,18,.3);
+}
+
+/*-- /Section 1 - Edit Server Page --*/
+
+/*-- Section 1 - Settings Page --*/
+
+.table_2 {
+    margin: 3px 0;
+}
+
+.table_2 .table_row {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    border-bottom: 1px solid #f3f6f8;
+    padding: 8px 25px 8px 45px;
+    min-height: 49px;
+}
+
+.table_2 .table_row .cell {
+    padding: 0 10px;
+}
+
+.table_2 .table_row .cell:nth-child(1) {
+    width: 60%;
+}
+
+.table_2 .table_row .cell:nth-child(2) {
+    width: 40%;
+    padding-right: 105px;
+    position: relative;
+}
+
+.table_2 .table_row:nth-child(1) {
+    min-height: 47px;
+    padding: 8px 25px 8px 45px;
+    background-color: #eef7ff;
+}
+
+.table_2 h3 {
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 600;
+    color: #000;
+}
+
+.table_2 p {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: normal;
+    color: #000;
+}
+
+p.heavy {
+    font-family: 'Gilroy Heavy';
+    font-weight: 900;
+}
+
+.table_2 .table_row .cell:nth-child(2) .red_pill_2 {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+}
+
+/*-- /Section 1 - Settings Page --*/
 
 
 /*-------------------------------------------*/
