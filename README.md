@@ -4,3 +4,4 @@
 # http://postolenko.github.io/seogun_admin/edit_parser.html
 # http://postolenko.github.io/seogun_admin/servers.html
 # http://postolenko.github.io/seogun_admin/settings.html
+# http://postolenko.github.io/seogun_admin/admin_client.html
